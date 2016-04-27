@@ -58,3 +58,11 @@ div{
 .menupadding{
     margin-left: 10%;
 }
+
+
+.container {
+  padding-right: 52px;
+  padding-left: 52px;
+  margin-right: auto;
+  margin-left: auto;
+}
