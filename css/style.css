@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'GeomanistFont';
+    src: url('../fonts/geomanist_medium.otf');
+}
+
+@font-face {
+    font-family: 'GeomanistFont';
+    src: url('../fonts/geomanist_medium.otf');
+    font-weight: bold;
+}
+
+ul.medium{
+	font-family: 'GeomanistFont';
+	font-size: 18px;
+}
+
+h3{
+	font-family: 'GeomanistFont'
+}
+
+div{
+	font-family: 'GeomanistFont'
+}
+
+
+.panel-default {
+    border-color: #b10058;
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: inherit;
+}
+
+.panel-default > .panel-heading {
+  color: #fff;
+  background-color: #cf3e89;
+  border-color: #cf3e89;
+}
+
+.panel-body{
+	text-align: -moz-left;
+}
+
+.tab{
+	float: left;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
