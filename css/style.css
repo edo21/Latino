@@ -66,3 +66,21 @@ div{
   margin-right: auto;
   margin-left: auto;
 }
+
+#section2, #section2 ~ #menu{
+    color: #8A54AE !important; 
+}
+
+#texto{
+    font-family: 'GeomanistFont';
+    color: white;
+}
+
+.menupadding{
+    margin-left: 10%;
+}
+
+.alignimg{
+    margin-left: auto;
+    margin-right: auto;
+}
