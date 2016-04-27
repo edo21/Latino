@@ -1,20 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>Acceso Latino</title>
-	<!-- Scripts-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script type="text/javascript" src="js/jquery.fullpage.js"></script>
+	<meta name="author" content="CTIN" />
+	<meta name="description" content="Landing page de Acceso Latino, donde se dará asesoría sobre la ciudadanía y el registro para votar." />
+	<meta name="keywords"  content="Latino,Voto,Ciudadanía, CTIN, Fundación Carlos Slim" />
+	<meta name="Resource-type" content="Document" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!-- CSS-->
-	<link rel="stylesheet" type="text/css" href="css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullpage.css">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+	<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="css/examples.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
 
+	<style>
+
+
+		.intro p{
+			/*width: 50%;*/
+			margin: 0 auto;
+			font-size: 1.1em;
+		}
+
+		#header{
+			top:0px;
+			background: red;
+		}
+		#footer{
+			bottom:0px;
+		}
+	</style>
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery.fullpage.js"></script>
+	<script type="text/javascript" src="js/examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#3FBFAD', '#8A54AE', 'whitesmoke', '#D49000', '#B10058'],
+				anchors: ['Ciudadania', 'Beneficios', 'Tramite', 'Registrate', 'Ayuda'],
+				menu: '#menu',
+				scrollOverflow: true,
+				scrollingSpeed: 1000,
+				navigation: true,
+				navigationPosition: 'left',
+				navigationTooltips: ['Ciudadanía', 'Beneficios', 'Tramite', 'Registrate', 'Ayuda']
+			});
+
+		});
+	</script>
+
 </head>
 <body>
+
+
+
+<div id="header">
+	<ul id="menu" class="medium">
+		<li data-menuanchor="Ciudadanía"><a href="#Ciudadania"><b>Ciudadanía</b></a></li>
+		<li data-menuanchor="Beneficios"><a href="#Beneficios"><b>Beneficios</b></a></li>
+		<li data-menuanchor="Tramite"><a href="#Tramite"><b>Trámite</b></a></li>
+		<li data-menuanchor="Registrate"><a href="#Registrate"><b>Regístrate y vota</b></a></li>
+		<li data-menuanchor="Ayuda"><a href="#Ayuda"><b>Aquí te ayudamos</b></a></li>
+	</ul>
+</div>
+
+
+
+<div id="fullpage">
+	<div class="section " id="section0">
+	<img src="img/ytuya.png" class="img-responsive" style="float: left;" alt="LOGO">
+		<h1>fullPage.js</h1>
+		<p>Create Beautiful Fullscreen Scrolling Websites</p>
+
+	</div>
+	<div class="section" id="section1">
+	<img src="img/ytuya.png" class="img-responsive" style="float: left;" alt="LOGO">
+		<h1>fullPage.js</h1>
+		<p>Create Beautiful Fullscreen Scrolling Websites</p>
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+			<h1>Example</h1>
+			<p>HTML markup example to define 4 sections.</p>
+			<img src="imgs/example2.png" alt="example" />
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<div class="intro">
+
+		</div>
+	</div>
+	<div class="section" id="section4">
+		<div class="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4 ">
+				 <div class="clearfix visible-xs"></div>
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h3 class="panel-title">Acceso Latino</h3>
+					  </div>
+					  <div class="panel-body">
+					  	<img class="tab" src="img/latino.png" class="img-responsive" alt="Latino">
+					    <p>Conoce paso a paso el proceso. Encuentra herramientas para tu examen y entrevista.</p>
+					  </div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 ">
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h3 class="panel-title">USCIS</h3>
+					  </div>
+					  <div class="panel-body">
+						<img class="tab" src="img/latino.png" class="img-responsive" alt="Latino">
+					    <p>Conoce la información oficial sobre la naturalización.</p>
+					  </div>
+					</div>
+				</div>	
+				<div class="col-xs-12 col-sm-4">
+					<div class="panel panel-default">
+					  <div class="panel-heading">
+					    <h3 class="panel-title">USCIS</h3>
+					  </div>
+					  <div class="panel-body">
+						<img class="tab" src="img/latino.png" class="img-responsive" alt="Latino">
+					    <p>Conoce la información oficial sobre la naturalización.</p>
+					  </div>
+					</div>
+				</div>									
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
 
 </body>
 </html>
