@@ -49,3 +49,9 @@ div{
     margin-right: 1em;
     margin-bottom: 1em;
 }
+
+.padding{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
